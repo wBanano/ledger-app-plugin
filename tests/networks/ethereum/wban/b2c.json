@@ -1,0 +1,22 @@
+{
+    "chainId": 1,
+    "contracts": [
+        {
+            "address": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034",
+            "contractName": "wBAN",
+            "selectors": {
+                "0x05b084df": {
+                    "erc20OfInterest": [],
+                    "method": "mintWithReceipt",
+                    "plugin": "wBAN"
+		        },
+                "0x819ae230": {
+                    "erc20OfInterest": ["bananoAddress"],
+                    "method": "swapToBan",
+                    "plugin": "wBAN"
+		        }
+	        }
+	    }
+    ],
+    "name": "wBAN"
+}
